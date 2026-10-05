@@ -1,0 +1,42 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    border: 4px solid rgb(187, 0, 0);
+    background-color: #8d0202;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    border: 2px solid #b10303;
+    border-radius: 10px;
+    background-color: #353434;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+#horizontal {
+    li{
+        float: left;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    li a{
+        display: inline;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover{
+        background-color: #111;
+    }
+}
